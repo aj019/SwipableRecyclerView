@@ -149,6 +149,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         switch (v.getId()){
             case R.id.fab:
                 removeView();
+
                 add = true;
                 alertDialog.setTitle("Add Country");
                 et_country.setText("");
